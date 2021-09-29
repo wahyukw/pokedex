@@ -1,0 +1,77 @@
+.rock {
+    background-color: #b8a038;
+  }
+  .ghost {
+    background-color: #705898;
+  }
+  .electric {
+    background-color: #f8d030;
+  }
+  .bug {
+    background-color: #F6D6A7;
+  }
+  .poison {
+    background-color: #e0a7f6;
+  }
+  .normal {
+    background-color: #a8a878
+  }
+  .fairy {
+    background-color: rgba(255, 192, 203, 0.863);
+  }
+  .fire {
+    background-color: #F08030;
+  }
+  .grass {
+    background-color:#78C850;
+  }
+  .water {
+    background-color:#6890f0;
+  }
+
+  .fighting {
+      background-color: #eb554d;
+  }
+
+  .ground {
+      background-color: #E0c068;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30%;
+    flex-grow: 1;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0.5rem;
+  }
+
+  div.capitalize {
+    text-transform: capitalize;
+  }
+
+  .container {
+    padding: 0.5rem 0 ;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .detail-wrapper {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+  }
+
+  .type-wrapper {
+      border-radius: 0.5rem;
+      padding: 0.2rem 0.5rem;
+  }
